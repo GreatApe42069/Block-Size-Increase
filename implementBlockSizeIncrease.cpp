@@ -1,4 +1,4 @@
-// File: dogecoin-DOIP-XXXX.cpp
+// File: implementBlockSizeIncrease.cpp
 
 #include <dogecoin/dogecoin.h>
 
