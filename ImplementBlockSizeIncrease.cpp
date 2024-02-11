@@ -1,4 +1,4 @@
-// File: implementBlockSizeIncrease.cpp
+// File: ImplementBlockSizeIncrease.cpp
 
 #include <dogecoin/dogecoin.h>
 
@@ -6,7 +6,7 @@ using namespace dogecoin;
 
 class DOIPXXXX {
 public:
-    void implementBlockSizeIncrease(Network& network) {
+    void ImplementBlockSizeIncrease(Network& network) {
         // Increase the block size to improve scalability
         network.setBlockSize(8 * 1024 * 1024);
     }
@@ -17,10 +17,10 @@ int main() {
     Network network = Network::init();
     
     DOIPXXXX doip;
-    doip.implementBlockSizeIncrease(network);
+    doip.ImplementBlockSizeIncrease(network);
 
     network.start();
-    // Wait for network to stabilize
+    // Wait for the network to stabilize
     // ...
 
     network.stop();
